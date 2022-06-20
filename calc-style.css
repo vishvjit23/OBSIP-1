@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(197, 27, 197);
+}
+#box{
+    background-color: whitesmoke;
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 23px 17px;
+}
+
+#screen{
+    border-radius: 15px 15px 5px 5px;
+    text-align: right;
+    height: 70px;
+    background-color: rgb(154, 197, 234);
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
